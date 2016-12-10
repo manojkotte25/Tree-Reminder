@@ -1,10 +1,7 @@
-//
-//  AppDelegate.swift
-//  TreeReminder
-//
-//  Created by Kondaparthy,Prem Sagar on 12/6/16.
-//  Copyright © 2016 Kondaparthy,Prem Sagar. All rights reserved.
-//
+// Delployed in the ipad given by NWMSU
+//Prem Sagar Kondaparthy
+// Swaroop Reddy Pothamsetti
+//Manoj Kumar Kotte
 
 import UIKit
 import CoreData

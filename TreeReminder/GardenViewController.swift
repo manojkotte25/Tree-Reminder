@@ -1,7 +1,9 @@
 
 
-// Delployed in the ipad given by NWMSU 
-
+// Delployed in the ipad given by NWMSU
+//Prem Sagar Kondaparthy
+// Swaroop Reddy Pothamsetti
+//Manoj Kumar Kotte
 import CoreData
 import UIKit
 
