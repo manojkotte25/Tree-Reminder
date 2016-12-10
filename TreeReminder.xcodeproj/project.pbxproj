@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0B977921DF79A7F00327BBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B977911DF79A7F00327BBC /* AppDelegate.swift */; };
+		D0B977971DF79A7F00327BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B977951DF79A7F00327BBC /* Main.storyboard */; };
+		D0B9779A1DF79A7F00327BBC /* TreeReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0B977981DF79A7F00327BBC /* TreeReminder.xcdatamodeld */; };
+		D0B9779C1DF79A7F00327BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B9779B1DF79A7F00327BBC /* Assets.xcassets */; };
+		D0B9779F1DF79A7F00327BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B9779D1DF79A7F00327BBC /* LaunchScreen.storyboard */; };
+		D0B977A71DF79AC600327BBC /* TreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B977A61DF79AC600327BBC /* TreeViewController.swift */; };
+		D0B977A91DF79B4700327BBC /* GardenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B977A81DF79B4700327BBC /* GardenViewController.swift */; };
+		D0B977AC1DF79B6700327BBC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B977AA1DF79B6700327BBC /* TableViewCell.swift */; };
+		D0B977AD1DF79B6700327BBC /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B977AB1DF79B6700327BBC /* TableViewCell.xib */; };
+		D0B977AF1DF79B8A00327BBC /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B977AE1DF79B8A00327BBC /* EntryViewController.swift */; };
+		D0B977B11DF79B9F00327BBC /* PlantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B977B01DF79B9F00327BBC /* PlantView.swift */; };
+		D0B977B61DF79F4C00327BBC /* Tree+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B977B41DF79F4C00327BBC /* Tree+CoreDataProperties.swift */; };
+		D0B977B71DF79F4C00327BBC /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B977B51DF79F4C00327BBC /* Tree.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0B9778E1DF79A7F00327BBC /* TreeReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B977911DF79A7F00327BBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0B977961DF79A7F00327BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0B977991DF79A7F00327BBC /* TreeReminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TreeReminder.xcdatamodel; sourceTree = "<group>"; };
+		D0B9779B1DF79A7F00327BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0B9779E1DF79A7F00327BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0B977A01DF79A7F00327BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B977A61DF79AC600327BBC /* TreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeViewController.swift; sourceTree = "<group>"; };
+		D0B977A81DF79B4700327BBC /* GardenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GardenViewController.swift; sourceTree = "<group>"; };
+		D0B977AA1DF79B6700327BBC /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D0B977AB1DF79B6700327BBC /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		D0B977AE1DF79B8A00327BBC /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		D0B977B01DF79B9F00327BBC /* PlantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantView.swift; sourceTree = "<group>"; };
+		D0B977B41DF79F4C00327BBC /* Tree+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tree+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D0B977B51DF79F4C00327BBC /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0B9778B1DF79A7F00327BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0B977851DF79A7F00327BBC = {
+			isa = PBXGroup;
+			children = (
+				D0B977901DF79A7F00327BBC /* TreeReminder */,
+				D0B9778F1DF79A7F00327BBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B9778F1DF79A7F00327BBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9778E1DF79A7F00327BBC /* TreeReminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B977901DF79A7F00327BBC /* TreeReminder */ = {
+			isa = PBXGroup;
+			children = (
+				D0B977911DF79A7F00327BBC /* AppDelegate.swift */,
+				D0B977A81DF79B4700327BBC /* GardenViewController.swift */,
+				D0B977AA1DF79B6700327BBC /* TableViewCell.swift */,
+				D0B977AB1DF79B6700327BBC /* TableViewCell.xib */,
+				D0B977AE1DF79B8A00327BBC /* EntryViewController.swift */,
+				D0B977B01DF79B9F00327BBC /* PlantView.swift */,
+				D0B977A61DF79AC600327BBC /* TreeViewController.swift */,
+				D0B977951DF79A7F00327BBC /* Main.storyboard */,
+				D0B9779B1DF79A7F00327BBC /* Assets.xcassets */,
+				D0B9779D1DF79A7F00327BBC /* LaunchScreen.storyboard */,
+				D0B977A01DF79A7F00327BBC /* Info.plist */,
+				D0B977981DF79A7F00327BBC /* TreeReminder.xcdatamodeld */,
+				D0B977B41DF79F4C00327BBC /* Tree+CoreDataProperties.swift */,
+				D0B977B51DF79F4C00327BBC /* Tree.swift */,
+			);
+			path = TreeReminder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0B9778D1DF79A7F00327BBC /* TreeReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B977A31DF79A7F00327BBC /* Build configuration list for PBXNativeTarget "TreeReminder" */;
+			buildPhases = (
+				D0B9778A1DF79A7F00327BBC /* Sources */,
+				D0B9778B1DF79A7F00327BBC /* Frameworks */,
+				D0B9778C1DF79A7F00327BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreeReminder;
+			productName = TreeReminder;
+			productReference = D0B9778E1DF79A7F00327BBC /* TreeReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B977861DF79A7F00327BBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kondaparthy,Prem Sagar";
+				TargetAttributes = {
+					D0B9778D1DF79A7F00327BBC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W4EBPMCSVZ;
+					};
+				};
+			};
+			buildConfigurationList = D0B977891DF79A7F00327BBC /* Build configuration list for PBXProject "TreeReminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0B977851DF79A7F00327BBC;
+			productRefGroup = D0B9778F1DF79A7F00327BBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B9778D1DF79A7F00327BBC /* TreeReminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0B9778C1DF79A7F00327BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B9779F1DF79A7F00327BBC /* LaunchScreen.storyboard in Resources */,
+				D0B977AD1DF79B6700327BBC /* TableViewCell.xib in Resources */,
+				D0B9779C1DF79A7F00327BBC /* Assets.xcassets in Resources */,
+				D0B977971DF79A7F00327BBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0B9778A1DF79A7F00327BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B977B61DF79F4C00327BBC /* Tree+CoreDataProperties.swift in Sources */,
+				D0B977A91DF79B4700327BBC /* GardenViewController.swift in Sources */,
+				D0B9779A1DF79A7F00327BBC /* TreeReminder.xcdatamodeld in Sources */,
+				D0B977AF1DF79B8A00327BBC /* EntryViewController.swift in Sources */,
+				D0B977B11DF79B9F00327BBC /* PlantView.swift in Sources */,
+				D0B977B71DF79F4C00327BBC /* Tree.swift in Sources */,
+				D0B977AC1DF79B6700327BBC /* TableViewCell.swift in Sources */,
+				D0B977A71DF79AC600327BBC /* TreeViewController.swift in Sources */,
+				D0B977921DF79A7F00327BBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0B977951DF79A7F00327BBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B977961DF79A7F00327BBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0B9779D1DF79A7F00327BBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B9779E1DF79A7F00327BBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0B977A11DF79A7F00327BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0B977A21DF79A7F00327BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0B977A41DF79A7F00327BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TreeReminder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri-iOS-Team-Provisioning-Profile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0B977A51DF79A7F00327BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TreeReminder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri-iOS-Team-Provisioning-Profile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0B977891DF79A7F00327BBC /* Build configuration list for PBXProject "TreeReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B977A11DF79A7F00327BBC /* Debug */,
+				D0B977A21DF79A7F00327BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B977A31DF79A7F00327BBC /* Build configuration list for PBXNativeTarget "TreeReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B977A41DF79A7F00327BBC /* Debug */,
+				D0B977A51DF79A7F00327BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0B977981DF79A7F00327BBC /* TreeReminder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0B977991DF79A7F00327BBC /* TreeReminder.xcdatamodel */,
+			);
+			currentVersion = D0B977991DF79A7F00327BBC /* TreeReminder.xcdatamodel */;
+			path = TreeReminder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0B977861DF79A7F00327BBC /* Project object */;
+}
